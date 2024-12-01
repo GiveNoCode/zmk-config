@@ -1,181 +1,181 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: { qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3 }
 layers:
   BASE:
-  - ESC
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '-'
-  - {t: TAB, h: LCTRL}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LALT
-  - LGUI
-  - NAV
-  - BSPC
-  - SPACE
-  - NUM
-  - RET
-  NUM:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - ':'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - +
-  - '-'
-  - '{'
-  - '['
-  - ']'
-  - '}'
-  - '='
-  - _
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  NAV:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ [
-  - Sft+ TAB
-  - TAB
-  - Gui+ ]
-  - Alt+ LEFT
-  - Alt+ DOWN
-  - Alt+ UP
-  - Alt+ RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SCROLL DOWN
-  - SCROLL UP
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - PG DN
-  - PG UP
-  - END
-  - Gui+ LEFT
-  - Gui+ DOWN
-  - Gui+ UP
-  - Gui+ RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  ADJ:
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F12
-  - PP
-  - PREV
-  - NEXT
-  - MUTE
-  - VOL DN
-  - VOL UP
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
+    - { t: ESC, h: LCTRL }
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - { t: "-", h: RCTRL }
+    - { t: TAB, h: LALT }
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - ;
+    - { t: "'", h: RALT }
+    - LSHFT
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - ","
+    - .
+    - /
+    - RSHIFT
+    - LEFT GUI
+    - NAVIGATION
+    - BSPC
+    - SPACE
+    - SYMBOLS
+    - RET
+  SYMBOLS:
+    - { t: ▽, type: trans }
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "0"
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - "!"
+    - "@"
+    - "#"
+    - $
+    - "%"
+    - ^
+    - "&"
+    - "*"
+    - "="
+    - +
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - "`"
+    - "~"
+    - "{"
+    - (
+    - "["
+    - "]"
+    - )
+    - "}"
+    - _
+    - \
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { type: held }
+    - { t: ▽, type: trans }
+  NAVIGATION:
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - Gui+ [
+    - Sft+ TAB
+    - TAB
+    - Gui+ ]
+    - Alt+ LEFT
+    - Alt+ DOWN
+    - Alt+ UP
+    - Alt+ RIGHT
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - Gui+Ctl+ TAB
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - SCROLL DOWN
+    - SCROLL UP
+    - { t: ▽, type: trans }
+    - LEFT
+    - DOWN
+    - UP
+    - RIGHT
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - HOME
+    - PG DN
+    - PG UP
+    - END
+    - Gui+ LEFT
+    - Gui+ DOWN
+    - Gui+ UP
+    - Gui+ RIGHT
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { type: held }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+  ADJUSTMENT:
+    - { t: ▽, type: trans }
+    - F1
+    - F2
+    - F3
+    - F4
+    - F5
+    - F6
+    - F7
+    - F8
+    - F9
+    - F10
+    - F12
+    - PP
+    - PREV
+    - NEXT
+    - MUTE
+    - VOL DN
+    - VOL UP
+    - BRIGHTNESS DEC
+    - BRIGHTNESS INC
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: BT, h: "0" }
+    - { t: BT, h: "1" }
+    - { t: BT, h: "2" }
+    - { t: BT, h: "3" }
+    - { t: BT, h: "4" }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { type: held }
+    - { t: ▽, type: trans }
+    - { t: ▽, type: trans }
+    - { type: held }
+    - { t: ▽, type: trans }
 combos:
-- p: [29, 28]
-  k: SPACE
-- p: [17, 16]
-  k: ENTER
-- p: [0, 38, 5]
-  k: BT CLR
+  - p: [0, 38, 5]
+    k: BT CLR
+  - p: [29, 28]
+    k: SPACE
+  - p: [17, 16]
+    k: ENTER
